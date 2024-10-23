@@ -10,14 +10,14 @@ public class Car {
 
     }
     private void startElectricity(){
-        System.out.println("Cars electricity started");
+        System.out.println("Car electricity started");
     }
 
-    public void startCommand(){
+    private void startCommand(){
         System.out.println("Car transmission started");
 
     }
-    public void  startFuelSystem(){
+    private void  startFuelSystem(){
         System.out.println("Car fuelSystem started");
     }
 }
